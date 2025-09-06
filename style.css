@@ -1,0 +1,20 @@
+.board{
+    position: fixed;
+    display: grid;
+    grid-template:repeat(4,10vh)/repeat(5,12vw) ;
+    left: 20vw;
+    top:58vh;
+}
+.board>button{
+    
+    font-size: 200%;
+}
+.empty{
+    background-color:rgb(239, 239, 239) ;
+    border: 1px solid black;
+}
+.equals{
+    position: fixed;
+    left: 26vw;
+    top: 50vh;
+}

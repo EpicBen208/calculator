@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/luxurys.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/all.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <!--input-->
+    <div class="board">
+        <button type="button" onclick="one()">1</button>
+        <button type="button" onclick="two()">2</button>
+        <button type="button" onclick="three()">3</button>
+        <button type="button" class="equasion" onclick="add()">+</button>
+        <button type="button" class="equasion" onclick="dev()">÷</button>
+        <button type="button" onclick="four()">4</button>
+        <button type="button" onclick="five()">5</button>
+        <button type="button" onclick="six()">6</button>
+        <button type="button" class="equasion" onclick="sub()">-</button>
+        <button type="button" class="equasion" onclick="pow()">^</button>
+        <button type="button" onclick="seven()">7</button>
+        <button type="button" onclick="eight()">8</button>
+        <button type="button" onclick="nine()">9</button>
+        <button type="button" class="equasion" onclick="mult()">x</button>
+        <button type="button" class="equasion" onclick="bracet()">( )</button>
+        <div class="empty"></div>
+        <button type="button" onclick="zero()">0</button>
+        <button type="button" onclick="deci()">.</button>
+        <button type="button" class="equasion" onclick="equal()">=</button>
+        <button class="equasion" onclick="cl()">C</button>
+    </div>
+    <!--output-->
+    <div class="equals">
+        <h1 id="eq"></h1>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
